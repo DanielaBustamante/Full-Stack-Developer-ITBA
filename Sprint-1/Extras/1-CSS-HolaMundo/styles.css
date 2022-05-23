@@ -1,0 +1,68 @@
+/* COMENTARIOS EN CSS */
+
+#titulo { /* porque uso la propiedad de id*/ 
+    color: tomato;
+}
+
+p.especial { /* porque seleccionamos la etiqueta p que tiene la clase especial*/ 
+    color: mediumseagreen;
+}
+
+p.texto {
+    color: slateblue;
+}
+
+div p { /* en todas las etiquetas div que tengas hijos p */
+    color: aquamarine;
+}
+
+div h2, div h3 { /* nuevo selector */ 
+    color: brown;
+}
+
+* {
+    font-size: 24px;
+    color: black; /* no se aplica el selctor universal porque ya hay otros para cada selector*/ 
+}
+
+/*
+.color {
+    color: #ff0000; 
+}
+*** hexadecimal del 0 a la f ***
+.color{
+    color: rgb(0, 255, 255);
+} 
+*** rojo, verde, azul ***
+*/
+
+.color {
+    /* border: 5px red outset; borde */
+    /*
+    Alternativas:
+      dotted
+      dashed
+      solid
+      double
+      groove
+      ridge
+      inset
+      outset
+      none
+      hidden
+    */
+    border-style: solid; /* asignarle estilo al borde sin nada mas */
+    border-color: blue;
+    border-radius:  5px; /* borde redondeado */
+    border-width: 2rem; /* ancho del borde */ 
+}
+
+#fondo {
+    background-color: rgba(255, 0, 0);
+    /*opacity: 0.3; le da transparencia al elemento completo*/
+    height: 200px;
+
+    background: #f00 url(coffee.png) repeat-y center bottom;
+}
+
+/* VI HASTA EL MINUTOS 56*/
