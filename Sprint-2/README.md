@@ -1,3 +1,3 @@
 ## DESDE EL 23/5 COMENZAMOS
-SPRINT 1
-- Fundamentos de internet y fundamentos del diseño
+SPRINT 2
+- Uso de JavaScript interactuando con HTML y CSS
