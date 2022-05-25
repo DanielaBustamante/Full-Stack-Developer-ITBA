@@ -1,4 +1,4 @@
-let nombre = prompt("Ingresa tu nombre");
+/* let nombre = prompt("Ingresa tu nombre");
 
 let temperatura = prompt("¿Cual es la temperatura?");
 
@@ -16,4 +16,8 @@ if (temperatura>=0 && temperatura<=16){
 }
 
 document.write("Hola " + nombre);
-document.write("<br/> Hoy " + temperatura + " " + recomendacion);
+document.write("<br/> Hoy " + temperatura + " " + recomendacion); */
+
+let temperatura = document.getElementById("btn").value;
+let elemento = document.getElementById("texto");
+

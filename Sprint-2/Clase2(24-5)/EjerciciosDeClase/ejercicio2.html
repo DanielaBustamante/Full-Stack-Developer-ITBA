@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="texto">
+        texto
+    </div>
+    
+    <script>
+        let pan = prompt("Eliga el pan: ")
+        let hamburguesa = prompt("Eliga el tipo de paty: ")
+        let aderezos = prompt("Eliga los aderezos: ")
+        let suma = 0
+
+        if(pan == "blanco"){
+            suma += 50
+        } else if (pan == "negro"){
+            suma += 60
+        } else if (pan == "sin gluten"){
+            suma += 75
+        } else {
+            alert("Tipo de pan mal ingresado")
+        }
+
+        if(hamburguesa == "carne"){
+            suma += 200
+        } else if (hamburguesa == "pollo"){
+            suma += 150
+        } else if (hamburguesa == "veggie"){
+            suma += 100
+        } else {
+            alert("Tipo de paty mal ingresado")
+        }
+
+        if(aderezos.includes("queso")){
+            suma += 20
+        } else if (aderezos.includes("tomate")){
+            suma += 15
+        } else if (aderezos.includes("lechuga")){
+            suma += 10
+        } else {
+            alert("Tipo de aderezo mal ingresado")
+        }
+
+        document.getElementById("texto").innerHTML = suma
+        
+    </script>
+
+</body>
+</html>
