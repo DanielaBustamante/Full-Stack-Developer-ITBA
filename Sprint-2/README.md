@@ -1,3 +1,3 @@
-## DESDE EL 23/5 COMENZAMOS
-SPRINT 2
+## Sprint 2 - Bases de la programación con Javascript
+
 - Uso de JavaScript interactuando con HTML y CSS
